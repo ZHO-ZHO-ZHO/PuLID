@@ -221,4 +221,4 @@ with gr.Blocks(title="PuLID", css=".gr-box {border-color: #8136e2}") as demo:
 
 
 demo.queue(max_size=3)
-demo.launch(server_name='0.0.0.0')
+demo.launch(share=True)
